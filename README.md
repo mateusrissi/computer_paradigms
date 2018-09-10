@@ -1,2 +1,2 @@
 # computer_paradigms
-Programming paradigms projects
+Programming paradigms projects in haskell.
