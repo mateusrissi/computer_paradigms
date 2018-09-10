@@ -1,0 +1,16 @@
+### INSTRUÇÕES DE USO ###
+
+Para compilar os programas, utilizar os comandos abaixo:
+
+ghc --make SeparaEmCamadas.hs -o SeparaEmCamadas
+ghc --make Separaimagens.hs -o Separaimagens
+
+#####################################################################
+
+Para executar os programas, executar:
+
+./SeparaEmCamadas nome_do_arquivo.bmp
+SAIDA: 3 arquivos: "nome_do_arquivo_r.txt", "nome_do_arquivo_g.txt" e "nome_do_arquivo_b.txt"
+
+./Separaimagens nome_do_arquivo.bmp
+SAIDA: 3 arquivos: "nome_do_arquivo_r.bmp", "nome_do_arquivo_g.bmp" e "nome_do_arquivo_b.bmp"
